@@ -1,0 +1,116 @@
+
+header {
+    background-color: rgb(28, 28, 50);
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    padding-right: 4%;
+}
+
+#profilephoto{
+    width: 20%;
+    height: 10%;
+    border-radius: 500%;
+    border-color: rgb(244, 217, 84);
+    border-style: inset;
+}
+
+#introSize {
+    font-size: 70%;
+    text-align: center;
+}
+
+aside {
+height: 100%;
+width: 265px;
+    background-color:rgb(106, 105, 107);
+    color: white;
+    padding-right: 5px;
+    padding-top: 5px;
+    }
+
+.menu{
+    padding-left: 10%;
+}
+
+
+.bullets {
+    list-style-type: none;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 110%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+footer {
+    
+    background-color: rgb(28, 28, 50);
+    color: white;
+    }
+
+.contact{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding-right: 5%;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    background-color: rgb(244, 217, 84);
+    margin: 20px;
+    padding-left: 1%;
+    border-style:none;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: rgb(28, 28, 50);
+    border-radius: 40px 40px 40px 40px
+}
+
+.main {
+    display:flex;
+    flex-direction: row;
+    overflow: unset;
+    color: rgb(106, 105, 107)
+}
+
+h3{
+    padding-left: 1%;
+}
+
+p{
+    padding-left: 1.5%;
+}
+
+.table{
+    padding-left: 2%;
+    color: rgb(49, 10, 55);
+}
+
+.me{
+background-image:url(images/theatreMask.jpg);
+background-size: 25%;
+
+}
+
+
+picture>source{
+    width: 230px;
+    padding-left: 2.4%;
+    padding-top: 20%;
+
+}
+
+picture>img{
+    width: 230px;
+    padding-left: 2.4%;
+    padding-top: 20%;
+}
