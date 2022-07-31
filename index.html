@@ -9,13 +9,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Karabo Dikolomela Resume</title>
     <script src="https://kit.fontawesome.com/7c283436f6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 
 <body>
 
-    <div class="container">
-        <header class="box header"><img src="images/KaraboProfile.jpg" alt="Picture Of Karabo" id="profilephoto">
+    <div class="overAll">
+        <div></div>
+        <header class="container box header"><img src="images/KaraboProfile.jpg" alt="Picture Of Karabo"
+                id="profilephoto">
             <h1 class="title">Karabo</h1>
             <h1 style="color:rgb(244, 217, 84)" class="title">Dikolomela</h1>
             <p class="introSize">In persuit of a position in the softtware development sector </p>
@@ -23,7 +27,9 @@
 
         <main>
             <div class="box sidebar">
+
                 <h2 class="menu h2">Menu</h2>
+
                 <nav>
                     <ul class="bullets">
                         <li><a href="#Education">Education</a></li>
@@ -31,12 +37,21 @@
                         <li><a href="#Skills">Skills</a></li>
                     </ul>
                 </nav>
-                <div class="personalDetails">
-                    <h3 class="menu">PERSONAL DETAILS</h3><br>
+                <div class="container personalDetails">
+                    <div>
+                        <h3 class="menu personalDetails2">Personal Details</h3><br>
+                    </div>
+                    <div class="col">
+                        <p><i class="fa-solid fa-phone"></i> +27670877777</p><br>
+                    </div>
+                    <div class="col">
+                        <p><i class="fa-solid fa-envelope"></i></i>karabodikolomela2@gmail.com</p><br>
+                    </div>
+                    <div class="col">
+                        <p><i class="fa-solid fa-location-dot"></i> 38 Gladstone Parow, Glenlily<br>Cape Town 7500
+                        </p>
+                    </div>
 
-                    <p><i class="fa-solid fa-phone"></i> +27670877777</p><br>
-                    <p><i class="fa-solid fa-envelope"></i></i>karabodikolomela2@gmail.com</p><br>
-                    <p><i class="fa-solid fa-location-dot"></i> 38 Gladstone Parow, Glenlily<br>Cape Town 7500</p>
                 </div>
 
                 <picture>
@@ -46,7 +61,7 @@
                 </picture>
 
             </div>
-            <section style="background-image:url(/Images/white.jpg);" id="white">
+            <section style="background-image:url(/Images/white.jpg);" id="white" class="container-fluid">
 
                 <div class="box education">
                     <h2 id="Education" class="h2">Education</h2>
@@ -71,59 +86,11 @@
                     </p>
                 </div>
 
-                <div class="box experience">
+                <div class="container px-4 box experience">
                     <h2 id="Experience" class="h2">Experience</h2>
                     <h3>Acting</h3>
 
-                    <!--table border="1" class="table">
 
-                        <thead>
-
-                            <td></td>
-                            <td><strong>Company</strong></td>
-                            <td><strong>Production</strong></td>
-                            <td><strong>Director</strong></td>
-                            <td><strong>Role</strong></td>
-                            <td><strong>Character</strong></td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>Feature Film</strong></td>
-                                <td>Diprente</td>
-                                <td>Matwetwe <i>(Wizard)</i></td>
-                                <td>Kagiso Lediga</td>
-                                <td>feature Role</td>
-                                <td>Karabo</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Theatre</strong></td>
-                                <td>Godpro Production</td>
-                                <td>Next Sunday</td>
-                                <td>Godfrey Thobejane</td>
-                                <td>Main</td>
-                                <td>Zazi</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Theatre</strong></td>
-                                <td>Co-Fussion</td>
-                                <td>abc</td>
-                                <td>Millicent Tintswalo</td>
-                                <td>supporting</td>
-                                <td>Zandi</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Roadshow</strong></td>
-                                <td>Indigenous Marketing</td>
-                                <td>Dept of Water & Sanitation</td>
-                                <td>Bongani Masango</td>
-                                <td>Supporting</td>
-                                <td>Nala</td>
-                            </tr>
-
-
-                        </tbody>
-                    </table-->
 
                     <table class="table acting">
                         <thead>
@@ -168,7 +135,7 @@
                                 <td data-label="Role">Supporting</td>
                                 <td data-label="Charactor">Nala</td>
                             </tr>
-                            
+
                         </tbody>
 
                     </table>
@@ -189,12 +156,13 @@
         </main>
         <footer class="box footer">
             <h2 class="h2">Contact Details</h2>
-            <div>
+            <div class="container">
                 <ul class="contact">
                     <li><a href="https://www.linkedin.com/in/karabo-dikolomela-16a26b166/" target="_blank"> <i
                                 class="fa-brands fa-linkedin-in"></i></a></li><br><br><br>
                     <li><a href="https://github.com/Karabo-Dikolomela/"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
+            </div>
         </footer>
     </div>
 

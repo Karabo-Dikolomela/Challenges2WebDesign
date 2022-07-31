@@ -11,6 +11,7 @@
     flex-grow: 1;
     
    }
+   
 
 .header{background:rgb(18, 18, 33);
     color: white;
@@ -64,7 +65,7 @@ picture>img{
 
 .table th{
     background-color: silver;
-    color: #ffffff;
+    color: #797676;
 }
 
 .table tbody tr:nth-child(even){
@@ -84,7 +85,12 @@ picture>img{
 }
 
 
-.footer{background: rgb(18, 18, 33);}
+.footer{
+    background: rgb(18, 18, 33);
+}
+.container{
+    min-width: 100%;
+}
 
 main{
     display: flex;
@@ -97,7 +103,7 @@ section{
     flex: 5;
 }
 
-.container{
+.overAll{
     display: flex;
     flex-direction: column;
 }
@@ -118,9 +124,10 @@ h2{
 }
 
 .menu{
-    background-color: white;
+    background-color: rgb(250, 246, 246);
     color: rgb(124, 121, 121);
 }
+
 
 .sidebar a{
     text-decoration: none;
@@ -143,15 +150,12 @@ ul{ list-style: none;
 
 .h2:hover{
     background: rgb(236, 225, 122);
+    color: white;
     animation-name: animatedLogo;
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
 
-.menu:hover{
-    color: white;
-
-}
 
 /*responsive*/
 
