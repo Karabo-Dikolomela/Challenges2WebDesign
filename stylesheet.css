@@ -12,12 +12,18 @@
     
    }
    
-
+/*header*/
 .header{background:rgb(18, 18, 33);
     color: white;
     font-size: 1rem;
 }
 
+.overAll{
+    display: flex;
+    flex-direction: column;
+}
+
+/*header picture*/
 #profilephoto{
     width: 10rem;
     height: 10%;
@@ -25,13 +31,25 @@
     border-color: rgb(244, 217, 84);
     border-style: inset;
 }
-
+/* sidebar styling*/
 .sidebar{
     background: white;
     font-size: 20px;
     color: rgb(124, 121, 121);
 }
+/*navigation bar bootstrap text override*/
+.nav{
+    color: rgb(20, 142, 207) !important;
+}
 
+/*.navbar{
+    width: 2px;
+    align-items: center;
+    margin-left: 80px;
+
+}*/
+
+/*sidebar responsive images resizing*/
 picture>source{
     width: 230px;
 }
@@ -40,16 +58,37 @@ picture>img{
     width: 230px;
     
 }
-
+/*beginning of main content font size*/
 .education{
     font-size: 20px;
 }
 
+/*card styling*/
+.card{
+    width:20%;
+    padding: 5px;
+}
+
+#codeSpaceLogo{
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    margin-left: 19%;
+    padding: 4px;
+}
+
+#tutLogo{
+    width: 20rem;
+    height: 20rem;
+    align-items: right;
+    margin-left:17%;
+}
+/*middle of main content styling*/
 .experience{
     font-size:20px;
     color: rgb(49, 10, 55);
 }
-
+/*table styling*/
 .table{
     width: 100%;
     border-collapse: collapse;
@@ -78,13 +117,39 @@ picture>img{
     padding:20px;
 }
 
-
+/*end of main content styling*/
 
  .skills{
     font-size: 20px;
 }
+/*carousel styling*/
+#html5{
+    width: 15rem;
+    height: 15rem;
+    align-items: center;
+    margin-left: 40%;
+
+}
 
 
+#css3{
+    width: 10rem;
+    height: 15rem;
+    align-items: center;
+    margin-left: 40%;
+}
+
+#javaScript{
+    width: 20rem;
+    height: 15rem;
+    align-items: center;
+    margin: 30%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    
+}
+
+/*footer styling*/
 .footer{
     background: rgb(18, 18, 33);
 }
@@ -103,10 +168,7 @@ section{
     flex: 5;
 }
 
-.overAll{
-    display: flex;
-    flex-direction: column;
-}
+
 
 /*text-design*/
 h2{
@@ -121,6 +183,17 @@ h2{
     border-right-width: 10px;
     border-color: rgb(28, 28, 50);
     border-radius: 10px 10px 10px 10px;   
+}
+.drama{
+    font-family: Montserat;
+    font-size: 20px;
+    color: #797676;
+}
+
+.codeSpace{
+    font-family: Montserat;
+    font-size: 20px;
+    color: #797676;
 }
 
 .menu{
@@ -169,7 +242,7 @@ ul{ list-style: none;
         display: none;
     }
     
-    .table, .table tbody, .table tr, .table td{
+     .table, .table tbody, .table tr, .table td{
         display:block;
         width: 100%;
     }
@@ -204,5 +277,5 @@ ul{ list-style: none;
         flex-direction: column;
         flex-basis: 100;
     }
-    .experience{font-size: 16px;}
+     .experience{font-size: 16px;}
 }
